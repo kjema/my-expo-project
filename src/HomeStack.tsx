@@ -48,7 +48,7 @@ function Product({ route, navigation }: HomeStackNavProps<"Product">) {
 }
 
 function EditProduct({ route, navigation }: HomeStackNavProps<"EditProduct">) {
-  const [formState] = useState();
+  // const [formState] = useState();
   const submit = useRef(() => {});
 
   submit.current = () => {
